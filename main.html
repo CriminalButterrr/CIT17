@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>PHP Tutorial Documentation</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Introduction to PHP</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#variables">Variables</a></li>
+            <li><a href="#constants">Constants</a></li>
+            <li><a href="#operators">Operators</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <section id="variables">
+            <h2>PHP Variables</h2>
+            <p>The main way to store information in the middle of a PHP program is by using a variable.</p>
+            <p>PHP has a total of eight data types which we use to construct our variables:</p>
+            <ul>
+                <li><b>Integers</b>: are whole numbers, without a decimal point, like 4195</li>
+                <li><b>Doubles</b>: are floating-point numbers, like 3.14159 or 49.1.</li>
+                <li><b>Booleans</b>: have only two possible values either true or false.</li>
+                <li><b>NULL</b>: is a special type that only has one value: NULL.</li>
+                <li><b>Strings</b>: are sequences of characters, like 'PHP supports string operations.'</li>
+                <li><b>Arrays</b>: are named and indexed collections of other values.</li>
+                <li><b>Objects</b>: are instances of programmer-defined classes, which can package up both other kinds of values and functions that are specific to the class.</li>
+                <li><b>Resources</b>: are special variables that hold references to resources external to PHP (such as database connections).</li>
+            </ul>
+            <p>Click <a href="PHP_Tutorial_Variables.php">here</a> to see examples.</p>
+        </section>
+
+        <section id="constants">
+            <h2>Constants</h2>
+            <p>A constant is a name or an identifier for a simple value. A constant value cannot change
+                during the execution of the script. By default, a constant is case-sensitive. By convention,
+                constant identifiers are always uppercase. A constant name starts with a letter or underscore,
+                followed by any number of letters, numbers, or underscores. If you have defined a constant,
+                it can never be changed or undefined.
+                To define a constant you have to use define() function and to retrieve the value of a constant,
+                you have to simply specifying its name. Unlike with variables, you do not need to have a
+                constant with a $. You can also use the function constant() to read a constant's value if you
+                wish to obtain the constant's name dynamically</p>
+            <p>Click <a href="PHP_Tutorial_Constants.php">here</a> to see examples.</p>
+        </section>
+
+        <section id="operators">
+            <h2>Operators</h2>
+            <p><b>What is Operator?</b> Simple answer can be given using expression 4 + 5 is equal to 9. Here
+                4 and 5 are called operands and + is called operator. PHP language supports following type
+                of operators.
+            </p>
+            <ul>
+                <li>Arithemetic Operators</li>
+                <li>Comparison Operators</li>
+                <li>Logical (or Relational) Operators </li>
+                <li>Assignment Operators</li>
+                <li>Conditiona (or Ternary) Operators</li>
+            </ul>
+            <p>Click <a href="PHP_Tutorial_Operators.php">here</a> to see examples.</p>
+        </section>
+
+
+    </div>
+
+</body>
+
+</html>
+
