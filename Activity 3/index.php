@@ -16,7 +16,7 @@
         </div>
         <div class="row">            
             <?php
-                include_once("dbConnect.php");
+                include_once("setup.php");
                 $sql = "SELECT id, username, email FROM users";
                 $result = $conn->query($sql);
 
